@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+header {
+    background-color: #FFE600;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding-bottom: 80px;
+    padding-left: 150px;
+}
+.pesquisa-bar{
+    padding-left: 300px;
+}
+.header-image {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100px; /* Defina a altura desejada */
+    z-index: 1; /* Certifica-se de que a imagem esteja à frente do conteúdo */
+    padding: 5px 30px;
+}
+nav {
+    background-color: #FFE600;
+    padding: 10px;
+    text-align: center;
+    position: relative; /* Defina a posição como relativa */
+    z-index: 1001; /* Defina um z-index maior para o nav, garantindo que ele esteja na frente do cabeçalho */
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+input[type="text"] {
+    padding: 10px; /* Espaçamento interno */
+    width: 450px; /* Largura da caixa de pesquisa */
+    border: 1px solid #ccc; /* Borda */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: auto;
+}
+
+/* Estilos para o botão de envio */
+button[type="submit"] {
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remover a borda */
+    background-color: #007bff; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor do mouse */
+}
+
+/* Estilizar o botão de envio quando o mouse passa por cima */
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Alterar a cor de fundo no hover */
+}
+.slideshow {
+    overflow: hidden;
+    width: 100%;
+    height: 400px; /* Altura da área de visualização */
+    position: relative;
+}
+
+.slides {
+    white-space: nowrap;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.header-direito {
+    position: relative;
+}
+
+.header-direito img {
+    padding: 5px 150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
